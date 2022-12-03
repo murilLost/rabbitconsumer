@@ -26,6 +26,5 @@ public class QueueConsumer {
 
     		log.info("Mensagem recebida:" + drone.getIdDrone());
 
-    	
     }
 }

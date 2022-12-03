@@ -3,7 +3,7 @@ server:
 
 spring:
   rabbitmq:
-    addresses: amqps://ojmpvvku:7fuzA8REVCA7x2rxiqMYiwJaLooRBOAb@jackal.rmq.cloudamqp.com/ojmpvvku
+    addresses:
 
 queue:
   fiap: fiap.1scjr.drone
