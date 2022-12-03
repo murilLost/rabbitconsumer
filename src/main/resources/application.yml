@@ -2,8 +2,23 @@ server:
   port : 8081
 
 spring:
+  mail:
+    host: smtp.office365.com
+    port: 587
+    username: descobreaebobo@hotmail.com
+    password: descobreaebobo
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          ssl:
+            enable: false
   rabbitmq:
     addresses:
 
 queue:
-  fiap: fiap.1scjr.drone
+  fiap:
+    nome: fiap.1scjr.drone
